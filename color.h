@@ -2,8 +2,8 @@
 // Created by Stefan Diaconu on 25/02/2026.
 //
 
-#ifndef _COLOR_H
-#define _COLOR_H
+#ifndef COLOR_H
+#define COLOR_H
 
 #include "interval.h"
 #include "vec3.h"
@@ -39,4 +39,4 @@ void write_color(std::ostream& out, const color& pixel_color) {
     out << rbyte << ' ' << gbyte << ' ' << bbyte << '\n';
 }
 
-#endif //_COLOR_H
+#endif //COLOR_H
